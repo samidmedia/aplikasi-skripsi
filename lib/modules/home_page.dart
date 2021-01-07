@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
   List<CuisineItems> cuisineItems = [
     CuisineItems(
         text: "Pizza & Pasta",
-        secondaryText: "28 reviews",
+        secondaryText: "30 reviews",
         image: "images/bestfood/ic_best_food_pizza.jpeg"),
     CuisineItems(
         text: "Sushi",
