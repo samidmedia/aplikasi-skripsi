@@ -1,6 +1,6 @@
+import 'package:adacatering/modules/main_page.dart';
 import 'package:flutter/material.dart';
 import 'package:adacatering/foodcard.dart';
-
 import 'pages/HomePage.dart';
 
 void main() {
@@ -138,11 +138,11 @@ class _FoodAppState extends State<FoodApp> {
                 children: [
                   InkWell(
                       onTap: () {
-                        // Navigator.push(
-                        //   context,
-                        //   MaterialPageRoute(
-                        //       builder: (context) => HalamanDetail()),
-                        // );
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => HalamanMenu()),
+                        );
                       },
                       child: foodCard(imgUrl[0], "Steak & kentang", "")),
                   foodCard(imgUrl[1], "ayam katsu", ""),
